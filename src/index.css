@@ -1,0 +1,238 @@
+/* ------------------------------- Custom Style Start -------------------------------  */
+/* Text CSS */
+.text-midnight-black {
+  color: #1b1b1b;
+}
+
+.text-champagne-gold {
+  color: #d4af37;
+}
+
+.text-ivory-white {
+  color: #f8f8ff;
+}
+
+.text-rich-burgundy {
+  color: #800020;
+}
+
+.text-royal-sapphire {
+  color: #274e9a;
+}
+
+.text-soft-pearl-grey {
+  color: #d3d3d3;
+}
+
+/* Background Color CSS */
+.bg-midnight-black {
+  background-color: #1b1b1b;
+}
+
+.bg-royal-sapphire {
+  background-color: #274e9a;
+}
+
+.bg-ivory-white {
+  background-color: #f8f8ff;
+}
+
+/* Navigation Link */
+.nav-bottom-border {
+  border-bottom: 1px solid #d4af37;
+}
+.nav-link:hover {
+  color: #d4af37;
+}
+
+/* Font Family */
+.ff-roboto {
+  font-family: "Roboto", serif;
+}
+
+.ff-playfair-display {
+  font-family: "Playfair Display", serif;
+}
+
+.social-icons {
+  height: 20px;
+  width: 20px;
+}
+
+/* ******************* Custom Style End *******************  */
+
+/* ------------------------------- Landing Page Start ------------------------------- */
+
+body {
+  background-color: #d3d3d3;
+}
+
+.brand-name {
+  font-family: "Playfair Display", serif;
+  color: #f8f8ff;
+}
+
+.brand-name:hover {
+  color: #d4af37;
+}
+
+.nav-link {
+  font-family: "Roboto", serif;
+}
+
+#home-banner {
+  background-image: url("../public/Home_Banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+
+.cta-btn {
+  width: fit-content;
+  padding: 10px 12px;
+  border-radius: 6px;
+  color: #800020;
+  background-color: #d4af37;
+  border: none;
+}
+
+.cta-btn:hover {
+  background-color: #800020;
+  color: #d4af37;
+}
+
+.main-heading {
+  font-family: "Playfair Display";
+  color: #d4af37;
+  background-color: #1b1b1b;
+  border-radius: 10px;
+  padding: 10px 12px;
+  text-align: center;
+}
+
+.feature-card {
+  height: 250px;
+  width: 300px;
+  background-color: #1b1b1b;
+  color: #d3d3d3;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border: 2px solid #d4af37;
+}
+
+.feature-card-btn {
+  width: fit-content;
+  background-color: #d4af37;
+  color: #800020;
+  padding: 8px 10px;
+  border-radius: 12px;
+  border: none;
+}
+
+.feature-card-btn:hover {
+  color: #d4af37;
+  background-color: #800020;
+}
+
+.feature-card-icon {
+  margin-right: 5px;
+  color: #800020;
+}
+
+.feature-card-icon:hover {
+  color: #d4af37;
+}
+
+/* ******************* Landing Page End ******************* */
+
+/* ------------------------------- Material Option Page Start ------------------------------- */
+.material-card {
+  height: 300px;
+  width: 300px;
+  background-color: #1b1b1b;
+  color: #d3d3d3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  border-radius: 12px;
+  margin-top: 10px;
+  border: 1px solid #d4af37;
+  text-align: center;
+}
+
+.material-card > img {
+  height: 150px;
+  width: 150px;
+  border-radius: 10px;
+}
+
+/* ******************* Material Option Page End ******************* */
+
+/* ------------------------------- Request Quotation Page Start ------------------------------- */
+
+#request-quote-btn {
+  background-color: #d4af37;
+  color: #800020;
+  border: none;
+  margin-top: 10px;
+  padding: 10px 12px;
+  border-radius: 6px;
+}
+
+#request-quote-btn:hover {
+  background-color: #800020;
+  color: #d4af37;
+}
+/* ******************* Request Quotation Page End ******************* */
+
+/* ------------------------------- Cost Estimation Page Start ------------------------------- */
+.calculate-cost-btn {
+  background-color: #d4af37;
+  color: #800020;
+  border: none;
+  margin-top: 10px;
+  padding: 10px 12px;
+  border-radius: 6px;
+}
+
+.calculate-cost-btn:hover {
+  color: #d4af37;
+  background-color: #800020;
+}
+/* ******************* Cost Estimation Page End ******************* */
+
+/* ------------------------------- Contact Us Page Start ------------------------------- */
+.contact-btn {
+  width: fit-content;
+  padding: 8px 10px;
+  border-radius: 6px;
+  color: #800020;
+  background-color: #d4af37;
+  border: none;
+}
+
+.contact-btn:hover {
+  background-color: #800020;
+  color: #d4af37;
+}
+
+/* ******************* Contact Us Page End ******************* */
+
+
+/* Media Query */
+@media only screen and (max-width:768px) {
+.feature-card{
+  margin-bottom: 10px;
+}
+}
+
+
+#backlink:hover{
+  color: white;
+}
